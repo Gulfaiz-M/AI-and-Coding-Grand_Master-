@@ -1,0 +1,16 @@
+      //Data Types In Js
+    
+    
+      var a = 8;
+      var b = 10;
+      var c = 10;
+      var d = null;
+      var e; // undefined variable
+      document.write("a and b are equal : " + (a==b));
+      document.write("<br>");
+      document.write("b and c are equal : " + (b==c));
+      document.write("<br>");
+      document.write("The value of d is : " + d);
+      document.write("<br>");
+      document.write("The value of e is : " + e);
+   
