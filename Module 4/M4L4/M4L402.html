@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Accessing Object Properties</h2>
+
+<p>You can use dot notation or bracket notation to read values from an object.</p>
+
+<p id="demo"></p>
+
+<script>
+  var student = {
+    name: "I",
+    years: 20
+  };
+
+  // Using dot notation for one, bracket for another
+  document.getElementById("demo").innerHTML =
+    student.name + " am " + student["years"] + " yrs old.";
+</script>
+
+</body>
+</html>

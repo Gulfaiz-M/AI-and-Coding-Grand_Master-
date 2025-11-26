@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<p>Setting a default value to a function parameter.</p>
+		<p id="demo"></p>
+
+		<script>
+			// Using ES6 default parameter
+			function myFunction(x, y = 2) {
+				return x * y;
+			}
+
+			document.getElementById("demo").innerHTML =
+				"Result is: " + myFunction(5);
+		</script>
+	</body>
+</html>

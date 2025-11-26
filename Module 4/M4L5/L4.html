@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+<h3>Using join() and push()</h3>
+
+<p>The join() method combines array items into a string, and the push() method adds a new element to the end of an array.</p>
+
+<p id="joined"></p>
+<p id="beforePush"></p>
+<p id="afterPush"></p>
+
+<script>
+  var colors = ["Red", "Green", "Blue"];
+
+  document.getElementById("joined").innerHTML = colors.join(" - ");
+  document.getElementById("beforePush").innerHTML = "Before push: " + colors;
+
+  colors.push("Yellow"); // add an item at the end
+
+  document.getElementById("afterPush").innerHTML = "After push: " + colors;
+</script>
+
+</body>
+</html>
+
